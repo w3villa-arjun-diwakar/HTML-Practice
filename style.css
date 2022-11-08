@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-image:url("images/bg1.jpeg");
+  background-size: cover;
+}
+
+h1 {
+  color: #458cb0;
+  margin-top: 26px;
+  display: inline-block;
+  margin-left: 22%;
+}
+.main-container{
+  display: flex;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 25px 32px 14px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  transition: 0.3s;
+  width: 50vh;
+  padding: 23px 53px;
+  margin: 73px 142px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Island Moments'
+}
+
+button {
+  padding: 20px;
+  margin: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-container1 {
+  text-align: center;
+  background-color: white;
+  width: 70vw;
+  margin: 5% auto;
+  box-shadow: 0 25px 32px 14px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 23px 53px;
+  cursor: pointer;
+  font-family: 'Island Moments', cursive;
+}
+
+.navbar{
+  display: flex;
+}
+.navbar a {
+  font-size: large;
+  border: 0;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+  margin: 20px;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+.table-container {
+  width: fit-content;
+  height:415px;
+  margin: 20px auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 40px;
+  border-radius: 12px;
+  background-color: #90a4ae;
+  font-family: Lato;
+}
+
+.table-container h2 {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: max-content;
+}
+
+td,
+th {
+  padding: 12px;
+  border: 2px solid black;
+
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type=file] {
+  position: absolute;
+  border: 0;
+  border: 0;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+
+.registration-form {
+  margin: 20px 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+
+.registration-form h1 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.registration-form p {
+  font-size: 20px;
+  margin: 15px 0;
+
+}
+
+.registration-form input {
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+
+}
+
+.registration-form button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border: 0;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.registration-form button:hover {
+  color: red;
+}
+
+.registration-form select {
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.container {
+  margin-top: 20px;
+  background-color: #03fcfc;
+  height: absolute;
+}
+
+.col-sm-4 {
+  border: 3px solid red;
+  text-align: center;
+  padding: 40px;
+  height: 119px;
+}
+
+.col-sm-12 {
+  border: 3px solid red;
+  text-align: center;
+}
+
+.col-sm-6 {
+  border: 3px solid red;
+  text-align: center;
+  padding: 40px;
+  height: 119px;
+}
+
+.footer {
+  display: flex;
+  background-color: bisque;
+  height: 80px;
+  text-align: center;
+  padding: 20px;
+}
+.left-sidebar{
+    width: 100%;
+    display: inline-block;
+}
+.right-sidebar{
+  width: 290px;
+  left:0;
+  background:#042331;
+  
+}
+.right-sidebar header{
+  font-size:22px;
+  color:white;
+  text-align:center;
+  line-height:70px;
+  background:#063146;
+}
+.right-sidebar ul{
+  margin:0px;
+  list-style-type:none;
+}
+
+.right-sidebar ul a{
+  display:block;
+  height:100%;
+  width:100%;
+  line-height:65px;
+  font-size:20px;
+  color:white;
+  padding-left:25px;
+  box-sizing:border-box;
+  border-top:1px solid rgba(255,255,255,.1);
+  text-decoration:none;
+  border-bottom:1px solid black;
+  transition:.4s;
+  
+}
+ul li:hover{
+  padding-left:25px;  
+}
+.right-sidebar ul a i{
+    margin-right:16px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+  background: #f32aa6;
+  color: white;
+}
+.fa-linkedin {
+  background: #077ad1;
+  color: white;
+}
+footer{
+  background-color: bisque;
+  color:black;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  flex-wrap:wrap;
+  text-align: center;
+  padding:2rem;
+}
